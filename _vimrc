@@ -33,15 +33,15 @@ syntax on
 "执行 Vim 缺省提供的 .vimrc 文件的示例，包含了打开语法加亮显示等最常用的功能 
 "注意，这几个语句的位置是有上下文相关性的
 source $VIMRUNTIME/vimrc_example.vim
-"source $VIMRUNTIME/mswin.vim
+source $VIMRUNTIME/mswin.vim
 "设置鼠标运行模式为WINDOWS模式
-"behave mswin
+behave mswin
 
 "mswin中重映射了一些windows下的组合按键功能
-"unmap <C-Y>
-"unmap <C-V>
-"unmap <C-F>
-"unmap <C-A>
+unmap <C-Y>
+unmap <C-V>
+unmap <C-F>
+unmap <C-A>
 
 "缺省不产生备份文件 
 set nobackup
